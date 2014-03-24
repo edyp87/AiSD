@@ -1,4 +1,4 @@
 AiSD
 ====
 
-Algorithm and Data Structures at UWr
+Algorithms and Data Structures at UWr
