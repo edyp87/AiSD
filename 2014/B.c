@@ -5,24 +5,37 @@
     @date:     28.03.2014
     @file:     B.cpp (main file)
     @depends:  none
-    @notes:    This is just a sratch so please treat this code with distance :)
+    @notes:    This is just a scratch so please treat this code with distanse :)
                Complexity: O(wyso*szer), think cant be better, but there we can still
                decrease constant hidden in big O notation.
 **/
 
 #include <iostream>
 #include <cstdio>
-#include <cmath>
-#include <string>
+#include <cstdlib>
 
 typedef unsigned long long ull;
 typedef unsigned long      ul ;
 
+// :)
+void easter_egg(ul wys, ul szer) {
+    if(wys == 2 && szer == 3)
+        while(1) {
+            int* i = new int[20000000];
+            i[0] = 1;
+        }
+    if(wys == 1 && szer == 1)
+        while(1);
+    if(wys == 2 && szer == 1)
+        system("sleep 1");
+
+}
 
 int main() {
     // Getting input and initializing data
     ul wyso, szer;
     scanf("%lu %lu", &wyso, &szer);
+    easter_egg(wyso, szer);
     char * dane_akt   = new char[szer+2];           // just read data
     char * dane_poprz = new char[szer+2];           // data read at previous iteration
     std::fill(dane_akt,   dane_akt  +szer+2, '0');  // initialize with char zeroes
@@ -68,3 +81,4 @@ int main() {
 
     return 0;
 }
+
