@@ -5,7 +5,7 @@
     @date:     28.03.2014
     @file:     B.cpp (main file)
     @depends:  none
-    @notes:    This is just a scratch so please treat this code with distanse :)
+    @notes:    This is just a scratch so please treat this code with distance :)
                Complexity: O(wyso*szer), think cant be better, but there we can still
                decrease constant hidden in big O notation.
 **/
